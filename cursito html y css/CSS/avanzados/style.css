@@ -1,0 +1,13 @@
+li{color: gray;}
+.ingrediente-faltante{color: red;}
+.ingrediente-secreto{color: blue;}
+/*todas las imagenes que terminan en jpg*/
+/*$ termina con*/
+/*^arranca con*/
+img[src$="jpg"] {
+    width: 100%;
+}
+
+ul li {color: orange;
+
+}

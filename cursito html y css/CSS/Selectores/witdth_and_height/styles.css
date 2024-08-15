@@ -1,0 +1,22 @@
+.contenidodiv{
+    background: red;
+    width: 300px;
+    height: 200px;
+}
+.h1contenido{
+    background: green;
+    padding-top: 65px;
+    padding-left: 80px;
+}
+.formpassword{
+    width: 300px;
+    margin-top: 5px;
+}
+.passwordinput, .submistpassword{
+    width: 100%;
+    box-sizing: border-box;
+    background: yellow;
+}
+.submistpassword{
+    margin-top: 5px;
+}

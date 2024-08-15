@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background: rgba(160, 35, 35, 0.8);
+}
+
+h2 {
+    color: #000000;
+    text-align: center;
+}
+
+.childd, .childdd, .textareaform, select, option, input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    box-shadow: 0 0 3px rgb(255, 0, 0);
+    margin: 10px 3px;
+    border: none;
+    border-right: 3px solid;
+    border-radius: 5px;
+}
+
+select, input, textarea {
+    background: #000a;
+    color: #ffffff;
+}
+
+.textareaform {
+    min-width: 100%;
+    min-height: 100px;
+    max-height: 200px;
+    resize: vertical;
+}
+
+.formf {
+    margin: auto;
+    padding: 10px;
+    background: linear-gradient(to bottom, #ffffff, transparent);
+    max-width: 600px;
+}
+
+.child {
+    width: 100%;
+}
+
+label {
+    color: #878b6c;
+    text-shadow: 0 0 1px #75db72;
+    padding-left: 10px;
+}

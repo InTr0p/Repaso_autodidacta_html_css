@@ -1,0 +1,32 @@
+body{margin: 0;}
+div{
+    background: #ededed;
+    padding: 20px;  /*cm para impresion, medida absolutas, pero reales, medida fisica*/
+
+/* Medida absoluta ideal para control y ser preciso */
+/* medida relativa, porcentajes. Los porcentajes  son medidas relativas ya que depende de un cotenedor, es decir si le doy 10% de padding a un p que esta dentro de un div que mide 200px, el margin que se le dara al p en cada lado sera de 20px, no se suele utilizar ni en margin padding, pero solo se utiliza para medidads pequeñas como 10% */ 
+
+/*unidad de medida em, es otra medida relativa que se define entorno al font-size del contenido padre, es decir, tengo un div con un font-size de 20px y dentro tengo un P, si le doy 2 em, la etiqueta p quedara con 40pz (20*2). si el contenido padre no tiene font-size, escalara al contenido del padre del padre... si no lo encuentre, lo pone por defecto]*/
+/* rem funciona de la misma manera con el font-size en em, pero la diferencia que busca la dependencia en el elemento raiz, es decir, el font-size asignado al body manual o el por defecto */
+    font-family: sans-serif;
+    border-left: 5px solid #999;
+    font-size: 30px;
+    margin: auto;
+    margin-top: 10vh;
+    width: 80vw;
+    height: 80vh;
+    box-sizing: border-box;
+}
+h1{
+    margin: 0;
+    font-size: 23px;
+}
+span{
+    color: #999;
+    font-size: 16px;
+    font-weight: 100;
+}
+p{
+    color:#555;
+    font-size: 14px;
+}

@@ -1,0 +1,12 @@
+.parrafo_lorem{
+    color:red;
+    font-family:Irish;
+    font-size: 30px;
+    text-align: justify;
+    text-decoration: line-through;
+    line-height: 1;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+    word-wrap:break-word;
+    word-break:break-all
+}

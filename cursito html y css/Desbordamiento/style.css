@@ -1,0 +1,33 @@
+body{
+    height: 100vh;
+    margin: 0;
+    background-color: #ccc;
+}
+
+
+
+.box{
+    margin: auto;
+    border: 1px solid black;
+    width: 180px;
+    height: 200px;
+    color: red;
+    margin-top: 70px;
+    position: relative;
+    left: 0;
+overflow: auto; /*Al darle auto, agrega a eje X e Y*/
+    background-color: #fff;
+    /*Agrega Scroll
+    overflow: scroll; */
+
+    /*overflow:clip; Quita los scroll sin dejar sus respectivo espacio*/
+
+    /*
+    QUita scroll,, pero deja el espacio de la sbarras del scroll
+    overflow-y: hidden;
+    overflow-x: hidden; */
+
+
+    /* white-space:viene en normal, pre, detexta salto de lineas del programador,pre-wrap respeta salto de linea
+      ; */
+}

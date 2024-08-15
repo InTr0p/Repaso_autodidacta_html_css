@@ -1,0 +1,35 @@
+h1:hover{color: aquamarine;} /*Cambia de color al poner el cursor sobre*/
+
+
+h1:active{color: aquamarine;} /*Cambia de color al poner el cursor sobre*/
+
+
+/* Seleccionando solo el primer li */
+li:first-child {
+    color: red;
+}
+
+/*Selecciona cada 2 elemento*/
+
+li:nth-child(2n){
+
+    color:yellow
+
+}
+
+/*Selecciona a un enesimo elemento*/
+li:nth-child(2){
+    color: blue;
+}
+
+
+/* Seleccionando el último li */
+li:last-child{
+    color: green;
+}
+
+
+/*excluir a un elemento*/
+.lista li:not(.el){
+    color: greenyellow;
+}

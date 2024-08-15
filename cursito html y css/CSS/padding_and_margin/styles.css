@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+}
+.box1{
+    background: red;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 50px;
+
+}
+.box2{
+    background: green;
+    width: 150px;
+    height: 150px;
+    margin-top: 60px;
+}

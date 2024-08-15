@@ -1,0 +1,42 @@
+body{background: black;}
+*{font-family:"SankofaDisplay" ;}
+
+.input_divisor{
+    width: 500px;
+    margin: auto;
+}
+
+.email_input, .password_input, .submit_input{
+    box-sizing: border-box;
+    width: 100%;
+    padding:15px 10px; 
+    text-align: center;
+    font-style: italic;
+    /* text-transform:full-weed; NO SE PUEDE FULL-WEED EN INPUT  */
+    background: black;
+    color: green;
+    border: hidden;
+    border-bottom: 3px solid green;
+    border-bottom-left-radius:5px ;
+    border-bottom-right-radius:5px ;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.submit_input{
+    letter-spacing: 2px;
+}
+
+.pborderradious{
+    color: green;
+    text-align: center;
+    border: 5px double rebeccapurple;
+/* border-top-right-radius: 20px ;
+border-bottom-left-radius: 20px;
+border-top-left-radius: 30px;
+border-bottom-right-radius: 50px;} */
+
+
+
+/* Practica de border-radious por lado */
+border-radius: 5px 0 50px 100%;}

@@ -1,0 +1,15 @@
+body {
+    background: #af6818;
+    margin: 0;
+}
+
+.box{
+    margin: 0;
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(to bottom,rgb(185, 185, 0),transparent );
+}
+.title{
+    text-align: center;
+    margin: 0;
+}

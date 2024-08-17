@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+
+}
+
+
+.box{
+    width: 120px;
+    height: 120px;
+    background-color: red;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    transition-property: left;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(.19,.62,.39,.29);
+    color: black;
+    position: relative;
+    left: 0;
+}
+/*https://cubic-bezier.com/#.17,.67,.83,.67*/
+body:hover .box{
+left: 400px;}

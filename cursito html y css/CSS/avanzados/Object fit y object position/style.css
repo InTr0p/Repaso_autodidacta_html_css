@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+img{
+width: 400px;
+height: 200px;
+/* object-fit: fill;se adapta */
+/* object-fit: contain; Se adapta a uno de los lados(res) */
+/* object-fit: cover; Se adapta  */
+/* object-position: top; posiscion */
+/* object-fit: none; sin medida, la res es de 1000x1000 */
+/* object-fit: scale-down; Se queda con el valor minimo, contain, o none, etc. Segun las medidas */
+border: 2px dashed red;
+margin-top: 50px;
+margin-left: 50px;
+
+}
